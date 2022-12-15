@@ -8,9 +8,9 @@ body *::after {
   box-sizing: border-box;
 }
 
-[class] {
+/* [class] {
   margin: 0;
-}
+} */
 
 a {
   color: inherit;
@@ -27,6 +27,7 @@ body {
 }
 
 /* 유연한 미디어 */
+
 img {
   max-width: 100%;
   height: auto;
