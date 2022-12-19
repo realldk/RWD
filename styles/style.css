@@ -240,15 +240,6 @@ input[type="search"] {
     grid-template-rows: auto;
   }
 
-  /* 모바일 새소식 */
-  .news {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-}
-
 /* 데스크탑 디바이스 (Desktop Device) */
 @media (min-width: 769px) {
   /* 데스크탑 헤더 */
