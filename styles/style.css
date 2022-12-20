@@ -224,7 +224,7 @@ input[type="search"] {
 }
 
 .board__list {
-  order: 3;
+  order: 2;
   flex: 1 1 auto;
   display: flex;
   flex-flow: column nowrap;
@@ -235,7 +235,6 @@ input[type="search"] {
 .board__item {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
 }
 
 .board__link {
@@ -253,13 +252,18 @@ input[type="search"] {
 }
 
 .board__more {
-  order: 2;
+  order: 1;
   padding-top: var(--spacing-sm);
+  height: 15%;
 }
 
 /* 공통 인기 사이트 */
 .favorite {
   grid-area: favorite;
+}
+
+.favorite__item {
+  margin-bottom: var(--spacing-sm);
 }
 
 /* 공통 트위터 */
@@ -269,7 +273,6 @@ input[type="search"] {
 
 .twitter__container {
   background-color: burlywood;
-
 }
 
 .twitter__userInfo {
@@ -424,9 +427,6 @@ input[type="search"] {
   /* 모바일 인기 사이트 */
   .favorite {
     background-color: yellow;
-  }
-  
-  .favorite__link {
   }
   
   .favorite__link::after {

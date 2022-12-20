@@ -44,7 +44,7 @@ video {
   position: relative;
   padding-top: 56.25%;
   height: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow: hidden;
   /* aspect-ratio: 16 / 9;
   aspect-ratio를 이용한 방법 */
