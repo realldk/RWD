@@ -5,6 +5,12 @@
 @import url(./base.css);
 
 /* 모든 디바이스 (All Device) */
+
+/* 공통 아이콘 (Font Awesome) */
+.far, .fas {
+  margin-right: var(--spacing-xs);
+}
+
 /* 공통 헤더 */
 .appHeader {
   position: relative;
@@ -156,10 +162,11 @@ input[type="search"] {
   color: var(--accent-twitter);
 }
 
-/* [class*="__enTitle"] {
-  font-size: 1rem;
-  font-weight: 400;
-} */
+/* 공통 메인 콘텐츠 섹션 본문 */
+.appMain [class*="__summary"] {
+  line-height: 1.6;
+  margin-top: var(--spacing-base);
+}
 
 /* 공통 추천 서적 */
 .book {
@@ -197,6 +204,12 @@ input[type="search"] {
   grid-area: news;
 }
 
+.news__date {
+  margin-top: var(--spacing-base);
+  display: block;
+  text-align: right;
+}
+
 /* 공통 게시판 */
 .board {
   grid-area: board;
@@ -211,6 +224,8 @@ input[type="search"] {
 .twitter {
   grid-area: twitter;
 }
+
+
 
 /* 모바일 디바이스 (Mobile Device) */
 @media (min-width: 320px) and (max-width: 768px) {
